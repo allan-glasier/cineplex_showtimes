@@ -6,15 +6,18 @@ class CineplexShowtimes::CLI
     menu    
   end
 
-  def get_showtime_list
+  # initializes scraper and returns the showtimes array
+  def get_showtime_list    
     @showtimes = CineplexShowtimes::Showtimes.showtimes    
   end
 
-  def showtime_list    
+  # displays showtime array to CLI
+  def showtime_list        
     puts " "
     @showtimes.each.with_index(1) {|showtime, index| puts "#{index}. #{showtime.movie[0]}"}
   end
 
+  # displays menu in CLI
   def menu
     input = ""
     while input != "exit"
@@ -28,7 +31,7 @@ class CineplexShowtimes::CLI
           #{showtime.movie[0]} | #{showtime.runtime} 
            
           Rated: "#{showtime.rating}" for #{showtime.rating_description}
-
+          
           Showtimes: #{showtime.time.sort.join(", ")}
 
           Synopsis:
@@ -44,6 +47,7 @@ class CineplexShowtimes::CLI
     end
   end
 
+  # farewell message when closing the program
   def goodbye
     puts "\n Thank you for using the Cineplex Showtimes gem, have yourself a great day!\n "
   end
