@@ -8,7 +8,7 @@ class CineplexShowtimes::CLI
 
   def showtime_list
     @showtimes = CineplexShowtimes::Showtimes.showtimes
-    @showtimes.each.with_index(1) {|movie, index| puts "#{i}. #{movie.name}"}
+    @showtimes.each.with_index(1) {|showtime, index| puts "#{index}. #{showtime.movie}"}
   end
 
   def menu
