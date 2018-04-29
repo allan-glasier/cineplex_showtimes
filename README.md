@@ -1,6 +1,6 @@
 # CineplexShowtimes
 
-CineplexShowtimes is a CLI that scrapes my local Cineplex theatre for movie showtimes as well as goes into a chosen movies page to grab its synopsis.
+CineplexShowtimes is a CLI that scrapes my local Cineplex theatre for movie showtimes as and goes into a chosen movies page to grab its synopsis.
 
 ## Installation
 
