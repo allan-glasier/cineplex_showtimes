@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Display showtimes for local Cineplex theatre"
   spec.description   = "Scrape cineplex.com for local showtimes and movie info"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/allan-glasier/cineplex_showtimes"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
