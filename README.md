@@ -1,8 +1,6 @@
 # CineplexShowtimes
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cineplex_showtimes`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+CineplexShowtimes is a CLI that scrapes my local Cineplex theatre for movie showtimes as well as goes into a chosen movies page to grab its synopsis.
 
 ## Installation
 
@@ -22,7 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To start the gem run
+
+    $ bin\cineplex_showtimes
+
+From there you will be met with a list of options. Choose the number beside a movie you wish to know more about
+You can type 'list' to display the list of movies again
+You can type 'exit' to quit the app
 
 ## Development
 
