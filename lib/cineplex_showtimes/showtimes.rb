@@ -28,7 +28,7 @@ class CineplexShowtimes::Showtimes
         showtime.movie = movie_object.css(".h3 a").text.strip,
         # grabs movie runtime
         showtime.runtime = movie_object.css(".h3 span").text.gsub("| ", ""),
-        # grabs showtimes, clears extra space from return object, converts time to date objects, sorts array, converts back to strings
+        # converts time to date objects, sorts array, converts back to strings
         showtime.time = time_array.collect{|t| Time.parse(t)}.sort.collect{|t| t.strftime("%I:%M%p")},        
         # grabs movie rating
         showtime.rating = movie_object.css(".movie-header-details p meta").attribute("content").value,
