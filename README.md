@@ -1,6 +1,6 @@
 # CineplexShowtimes
 
-CineplexShowtimes is a CLI that scrapes my local Cineplex theatre for movie showtimes as well as goes into a chosen movies page to grab its synopsis.
+CineplexShowtimes is a CLI that scrapes my local Cineplex theatre for movie showtimes as and goes into a chosen movies page to grab its synopsis.
 
 ## Installation
 
@@ -36,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/cineplex_showtimes. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/allan-glasier/cineplex_showtimes. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
